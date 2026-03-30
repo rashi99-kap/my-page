@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+
+.name{
+    background: linear-gradient(#57e3d5, beige);  
+
+    height: 700px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+     font-style: normal;
+     
+}
+h3 {
+    text-align: center;
+    margin-top: 0 ;
+}
+.laptop1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.pen{
+    background-color: #57e3d5;
+    margin-left: 900px;
+    border-radius: 20%;
+    
+}
+.photo{
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+h2 {
+    text-align: center;
+    color: #57e3d5;
+}
+
+.section{
+    gap: 250px
+}
+
+.page {
+    
+    margin-bottom: 100px;
+}
+.skills{
+  
+  display: flex;
+  justify-content: center; /* Horizontally centers the list */
+  align-items: center;     /* Vertically centers the list (requires container height) */
+}  
+.experience{
+     display: flex;
+  justify-content: center; /* Horizontally centers the list */
+  align-items: center; 
+}
+.project{
+     display: flex;
+  justify-content: center; /* Horizontally centers the list */
+  align-items: center; 
+
+}
+.centered-container {
+    display: flex;          /* Places image and text side by side */
+    justify-content: center; /* Centers horizontally on the page */
+    align-items: center;     /* Centers vertically against each other */
+    gap: 20px;               /* Adds space between image and text */
+    height: 200px;           /* Optional: fills viewport to show vertical centering */
+  }
+
+  .side-image {
+    max-width: 200px;        /* Prevents image from being too large */
+    height: auto;
+  }
+  .contact-button {
+    background-color:#57e3d5;
+   
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  footer {
+  text-align: center;
+  padding: 20px;
+  background-color:#57e3d5;
+  color: white;
+}
